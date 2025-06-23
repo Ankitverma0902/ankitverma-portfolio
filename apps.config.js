@@ -15,7 +15,7 @@ const apps = [
         icon: './themes/Yaru/apps/chrome.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: true,
+        desktop_shortcut: false,
         screen: displayChrome,
     },
     {
@@ -33,7 +33,7 @@ const apps = [
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: true,
+        desktop_shortcut: false,
         screen: displayAboutAnkit,
     },
     {
@@ -78,7 +78,7 @@ const apps = [
         icon: './themes/Yaru/system/user-trash-full.png',
         disabled: false,
         favourite: false,
-        desktop_shortcut: true,
+        desktop_shortcut: false,
         screen: displayTrash,
     },
     {
@@ -87,7 +87,7 @@ const apps = [
         icon: './themes/Yaru/apps/gedit.png',
         disabled: false,
         favourite: false,
-        desktop_shortcut: true,
+        desktop_shortcut: false,
         screen: displayGedit,
     },
     {
@@ -112,5 +112,6 @@ const apps = [
     //     url: "ht"
     // },
 ]
+
 
 export default apps;
