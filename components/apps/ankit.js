@@ -367,6 +367,6 @@ function Projects() {
 
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Ankit CyberSecurity.pdf" title="Ankit Verma resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="/files/Ankit CyberSecurity.pdf" title="Ankit Verma resume" frameBorder="0"></iframe>
     )
 }
