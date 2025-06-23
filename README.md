@@ -1,14 +1,22 @@
-# Web simulation of UbuntuOS
+# 🐧 UbuntuOS Web Simulation - Ankit's Portfolio
 
-This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
-If you want to edit this. Clone this project and edit the files in `/src/components`.
+This is a **personal portfolio website** inspired by the **Ubuntu 20.04** desktop theme. It mimics the look and feel of an OS environment and is fully responsive.
 
-To run this on localhost
-type `npm start` and when u are done coding type `npm run build` to build your app.
+Built using:
+- **Next.js** for the React-based framework
+- **Tailwind CSS** for utility-first styling
+- **EmailJS** for handling contact form submissions
 
-_NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
+---
 
-<a href="https://www.buymeacoffee.com/Vivek9patel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+---
+## 📸 Screenshot
+
+<img src="/public/images/pic-1.png"></img>
+<img src="/public/images/pic-2.png"></img>
+
+## 📁 Project Structure
+
 
 ### To make the contact form work
 
@@ -27,12 +35,6 @@ NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
 ```
 
 into it. Replace \*your user id and your service ID with your values in your EmailJS service.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Vivek9patel/Vivek9patel.github.io&type=Date)](https://star-history.com/#Vivek9patel/Vivek9patel.github.io&Date)
-
-## This project was made using Create Next App! Here is the scripts that u can run.
 
 ### `npm start`
 
