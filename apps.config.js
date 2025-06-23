@@ -33,7 +33,7 @@ const apps = [
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: false,
+        desktop_shortcut: true,
         screen: displayAboutAnkit,
     },
     {
@@ -81,6 +81,18 @@ const apps = [
         desktop_shortcut: false,
         screen: displayTrash,
     },
+    {
+  id: "linkedin",
+  title: "LinkedIn",
+  icon: "./themes/Yaru/apps/linkedin.png", // add this icon (see step 2)
+  isExternalApp: true,
+  url: "https://www.linkedin.com/in/ankit-verma-0902v/",
+  desktop_shortcut: true,
+  disabled: false,
+  favourite: false,
+  screen: () => {}, // no internal screen
+},
+
     {
         id: "gedit",
         title: "Contact Me",
