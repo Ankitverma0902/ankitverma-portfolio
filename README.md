@@ -16,8 +16,8 @@ A **unique, interactive portfolio website** inspired by Ubuntu 20.04's desktop i
 
 ## 📸 Screenshot
 
-> *(Insert a screenshot here showing the desktop UI simulation)*
-
+<img src="/public/images/p-1.png"> </img>
+<img src="/public/images/p-2.png"> </img>
 ---
 
 ## 📁 Project Structure & Usage
