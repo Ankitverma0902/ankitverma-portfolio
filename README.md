@@ -1,65 +1,61 @@
 # 🐧 UbuntuOS Web Simulation - Ankit's Portfolio
 
-This is a **personal portfolio website** inspired by the **Ubuntu 20.04** desktop theme. It mimics the look and feel of an OS environment and is fully responsive.
+A **unique, interactive portfolio website** inspired by Ubuntu 20.04's desktop interface. This project replicates the feel of a Linux OS while showcasing Ankit Verma’s skills, resume, and projects in a creative and responsive format.
 
-Built using:
-- **Next.js** for the React-based framework
-- **Tailwind CSS** for utility-first styling
-- **EmailJS** for handling contact form submissions
+🔗 **Live Demo:** [https://ankitverma-portfolio.vercel.app/](https://ankitverma-portfolio.vercel.app/)
 
 ---
 
+## 🛠 Built With
+
+- ⚛️ **React.js** – Frontend library
+- 🎨 **Tailwind CSS** – Utility-first styling
+- 🌐 **Deployed on Vercel**
+
 ---
+
 ## 📸 Screenshot
 
-<img src="/public/images/pic-1.png"></img>
-<img src="/public/images/pic-2.png"></img>
+> *(Insert a screenshot here showing the desktop UI simulation)*
 
-## 📁 Project Structure
+---
 
+## 📁 Project  Usage
 
-### To make the contact form work
+### ▶️ `npm start`
 
-- Create a account in [emailjs](https://www.emailjs.com/) create also new Outlook or Gmail account to be able
-  to send email.
-- Create a new service, select and log in to your newly created outlook or gmail account on EmailJS.
-- Go back to the dashboard and get the Service ID copy it.
-- Create a .env file in your root folder and put
-
-```
-
-NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
-NEXT_PUBLIC_TEMPLATE_ID = 'template_fqqqb9g'
-NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
-
-```
-
-into it. Replace \*your user id and your service ID with your values in your EmailJS service.
-
-### `npm start`
-
-Runs the app in the development mode.\
+Runs the app in development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page will reload on changes.  
+You will also see lint errors in the console (if any).
 
-### `npm run build`
+### 📦 `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Optimizes the build for best performance
+- Bundles React in production mode
+- Filenames include hashes
+- App is ready to be deployed
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-## Contributing
+## 🧩 Features
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
+- ✅ Ubuntu-inspired desktop theme with animations
+- ✅ Responsive across all devices
+- ✅ Resume viewer (PDF iframe)
+- ✅ Sidebar with app-style project launcher
+- ✅ Dark mode by default
+- ✅ Modular folder & window components
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Added some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+---
+
+📃 License
+This project is for personal and educational use.
+Feel free to customize the template with your own name, resume, and projects — but please give credit to the original concept if you use this as a base.
+
+👨‍💻 Author
+Ankit Verma
+GitHub • LinkedIn
