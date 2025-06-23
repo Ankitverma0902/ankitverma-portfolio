@@ -20,13 +20,13 @@ export default function Meta() {
             <meta name="theme-color" content="#E95420" />
 
             {/* Search Engine */}
-            <meta name="image" content="/images/logos/fevicon.png" />
+            <meta name="image" content="" />
 
             {/* Schema.org for Google */}
             <meta itemProp="name" content="Ankit Verma Portfolio - Cybersecurity & Full Stack Developer" />
             <meta itemProp="description"
                 content="Ankit Verma's personal portfolio built with Ubuntu-like styling using Next.js and Tailwind CSS." />
-            <meta itemProp="image" content="/images/logos/fevicon.png" />
+            <meta itemProp="image" content="" />
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary" />
@@ -35,20 +35,20 @@ export default function Meta() {
                 content="Ankit Verma's personal portfolio built with Ubuntu-like styling using Next.js and Tailwind CSS." />
             <meta name="twitter:site" content="@ankitverma_09" />
             <meta name="twitter:creator" content="@ankitverma_09" />
-            <meta name="twitter:image:src" content="/images/logos/logo_1024.png" />
+            <meta name="twitter:image:src" content="" />
 
             {/* Open Graph general (Facebook, Pinterest & Google+) */}
             <meta property="og:title" content="Ankit Verma Portfolio - Cybersecurity & Full Stack Developer" />
             <meta property="og:description"
                 content="Ankit Verma's personal portfolio built with Ubuntu-like styling using Next.js and Tailwind CSS." />
-            <meta property="og:image" content="/images/logos/logo_1200.png" />
+            <meta property="og:image" content="" />
             <meta property="og:url" content="https://ankitverma-portfolio.vercel.app/" />
             <meta property="og:site_name" content="Ankit Verma Personal Portfolio" />
             <meta property="og:locale" content="en_IN" />
             <meta property="og:type" content="website" />
 
-            <link rel="icon" href="/images/logos/fevicon.svg" />
-            <link rel="apple-touch-icon" href="/images/logos/logo.png" />
+            <link rel="icon" href="" />
+            <link rel="apple-touch-icon" href="" />
             <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style" />
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
         </Head>
