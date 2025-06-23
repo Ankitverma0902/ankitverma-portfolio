@@ -52,9 +52,6 @@ Builds the app for production to the `build` folder.
 
 ---
 
-📃 License
-This project is for personal and educational use.
-Feel free to customize the template with your own name, resume, and projects — but please give credit to the original concept if you use this as a base.
 
 ## 🙏 Acknowledgements
 
