@@ -170,7 +170,7 @@ function Education() {
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2022 - 2026</div>
                     <div className=" text-sm md:text-base">Computer Science with specialization in Information Security</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 7.57 </div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 7.7 </div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
@@ -268,24 +268,15 @@ function Skills() {
 
 function Projects() {
     const project_list = [
-        {
-            name: "Two-Factor Authentication System",
-            date: "2024",
-            link: "https://github.com/Ankitverma0902/2FA-System",
-            description: [
-                "Built a secure web app using 2FA via email/authenticator apps. Implemented session management, OTP verification, and brute-force protection."
-            ],
-            domains: ["security", "authentication", "node.js", "react"]
-        },
-        {
-            name: "Car and Bike Rental Website",
-            date: "2024",
-            link: "https://github.com/Ankitverma0902/car-bike-rental",
-            description: [
-                "Developed a full-stack platform for renting vehicles with user auth, live availability, and integrated payment gateway."
-            ],
-            domains: ["javascript", "react", "node.js", "mongodb"]
-        },
+       {
+    name: "Adaptive AI-Driven Cyber Threat Intelligence System",
+    date: "2025",
+    link: "https://ai-cti-qd3s.vercel.app/",
+    description: [
+    "Built an AI-driven cyber threat intelligence system that aggregates multiple threat feeds to classify malicious IPs and URLs and generate automated risk reports."
+],
+    domains: ["cybersecurity", "threat-intelligence", "machine-learning", "python", "ai"]
+},
         {
             name: "Automated Vulnerability Scanner",
             date: "2024",
@@ -294,7 +285,18 @@ function Projects() {
                 "Web-based tool combining Nmap and OWASP ZAP to scan networks and web apps for security vulnerabilities."
             ],
             domains: ["python", "owasp-zap", "nmap", "flask"]
-        }
+        },
+        
+        {
+            name: "Car and Bike Rental Website",
+            date: "2023",
+            link: "https://github.com/Ankitverma0902/car-bike-rental",
+            description: [
+                "Developed a full-stack platform for renting vehicles with user auth, live availability, and integrated payment gateway."
+            ],
+            domains: ["javascript", "react", "node.js", "mongodb"]
+        },
+
     ];
 
     const tag_colors = {
